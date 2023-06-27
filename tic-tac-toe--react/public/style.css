@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 70px;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+    padding: 100px;
+    background-color: khaki;
+}
+.Table{
+    width: 300px;
+    border: solid black 2px;
+    background-color: burlywood;
+    padding: 5px;
+}
+.data{
+    border: solid black 2px;
+    width: 70px;
+    height: 70px;
+    font-weight: bolder;
+    text-align: center;
+    background-color: rgba(32, 28, 28, 0.676);
+    padding: 5px;
+}
+.data:hover{
+    background-color: aquamarine;
+    animation-name: datal;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+@keyframes datal {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg) scaleX(1.1);
+    }
+    
+}
+.row{
+    border: solid black 2px;
+  padding: 5px;
+}
+.display{
+    width: 270px;
+    padding: 10px;
+    background-color: rgba(165, 192, 29, 0.4);
+    border: solid black 7px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 70px;
+    font-weight:900;
+}
+
+.disp{
+    display: flex;
+    margin-bottom: 10px;
+}
+.disp{
+    background:url(tic.png) center/contain;
+}
